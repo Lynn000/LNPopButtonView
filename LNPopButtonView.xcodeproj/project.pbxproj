@@ -13,6 +13,11 @@
 		1884A7081D2A13DF00B9AE76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1884A7061D2A13DF00B9AE76 /* Main.storyboard */; };
 		1884A70A1D2A13DF00B9AE76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1884A7091D2A13DF00B9AE76 /* Assets.xcassets */; };
 		1884A70D1D2A13DF00B9AE76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1884A70B1D2A13DF00B9AE76 /* LaunchScreen.storyboard */; };
+		1884A7211D2A15A000B9AE76 /* compose.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1884A7201D2A15A000B9AE76 /* compose.plist */; };
+		1884A72C1D2A25F900B9AE76 /* UIImage+LNImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884A7251D2A25F900B9AE76 /* UIImage+LNImageTool.m */; };
+		1884A72D1D2A25F900B9AE76 /* UIImageView+LNImageViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884A7271D2A25F900B9AE76 /* UIImageView+LNImageViewTool.m */; };
+		1884A72E1D2A25F900B9AE76 /* LNPopButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884A7291D2A25F900B9AE76 /* LNPopButtonView.m */; };
+		1884A72F1D2A25F900B9AE76 /* LNTopImgButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884A72B1D2A25F900B9AE76 /* LNTopImgButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		1884A7091D2A13DF00B9AE76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1884A70C1D2A13DF00B9AE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1884A70E1D2A13DF00B9AE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1884A7201D2A15A000B9AE76 /* compose.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = compose.plist; sourceTree = "<group>"; };
+		1884A7241D2A25F900B9AE76 /* UIImage+LNImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LNImageTool.h"; sourceTree = "<group>"; };
+		1884A7251D2A25F900B9AE76 /* UIImage+LNImageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LNImageTool.m"; sourceTree = "<group>"; };
+		1884A7261D2A25F900B9AE76 /* UIImageView+LNImageViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LNImageViewTool.h"; sourceTree = "<group>"; };
+		1884A7271D2A25F900B9AE76 /* UIImageView+LNImageViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LNImageViewTool.m"; sourceTree = "<group>"; };
+		1884A7281D2A25F900B9AE76 /* LNPopButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNPopButtonView.h; sourceTree = "<group>"; };
+		1884A7291D2A25F900B9AE76 /* LNPopButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNPopButtonView.m; sourceTree = "<group>"; };
+		1884A72A1D2A25F900B9AE76 /* LNTopImgButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNTopImgButton.h; sourceTree = "<group>"; };
+		1884A72B1D2A25F900B9AE76 /* LNTopImgButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNTopImgButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 		1884A6FC1D2A13DF00B9AE76 /* LNPopButtonView */ = {
 			isa = PBXGroup;
 			children = (
+				1884A7221D2A25F900B9AE76 /* LNPopButtonView */,
 				1884A7001D2A13DF00B9AE76 /* AppDelegate.h */,
 				1884A7011D2A13DF00B9AE76 /* AppDelegate.m */,
 				1884A7031D2A13DF00B9AE76 /* ViewController.h */,
@@ -66,6 +81,7 @@
 				1884A7091D2A13DF00B9AE76 /* Assets.xcassets */,
 				1884A70B1D2A13DF00B9AE76 /* LaunchScreen.storyboard */,
 				1884A70E1D2A13DF00B9AE76 /* Info.plist */,
+				1884A7201D2A15A000B9AE76 /* compose.plist */,
 				1884A6FD1D2A13DF00B9AE76 /* Supporting Files */,
 			);
 			path = LNPopButtonView;
@@ -77,6 +93,29 @@
 				1884A6FE1D2A13DF00B9AE76 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1884A7221D2A25F900B9AE76 /* LNPopButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				1884A7231D2A25F900B9AE76 /* Category */,
+				1884A7281D2A25F900B9AE76 /* LNPopButtonView.h */,
+				1884A7291D2A25F900B9AE76 /* LNPopButtonView.m */,
+				1884A72A1D2A25F900B9AE76 /* LNTopImgButton.h */,
+				1884A72B1D2A25F900B9AE76 /* LNTopImgButton.m */,
+			);
+			path = LNPopButtonView;
+			sourceTree = "<group>";
+		};
+		1884A7231D2A25F900B9AE76 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1884A7241D2A25F900B9AE76 /* UIImage+LNImageTool.h */,
+				1884A7251D2A25F900B9AE76 /* UIImage+LNImageTool.m */,
+				1884A7261D2A25F900B9AE76 /* UIImageView+LNImageViewTool.h */,
+				1884A7271D2A25F900B9AE76 /* UIImageView+LNImageViewTool.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1884A70D1D2A13DF00B9AE76 /* LaunchScreen.storyboard in Resources */,
+				1884A7211D2A15A000B9AE76 /* compose.plist in Resources */,
 				1884A70A1D2A13DF00B9AE76 /* Assets.xcassets in Resources */,
 				1884A7081D2A13DF00B9AE76 /* Main.storyboard in Resources */,
 			);
@@ -151,7 +191,11 @@
 			files = (
 				1884A7051D2A13DF00B9AE76 /* ViewController.m in Sources */,
 				1884A7021D2A13DF00B9AE76 /* AppDelegate.m in Sources */,
+				1884A72E1D2A25F900B9AE76 /* LNPopButtonView.m in Sources */,
 				1884A6FF1D2A13DF00B9AE76 /* main.m in Sources */,
+				1884A72C1D2A25F900B9AE76 /* UIImage+LNImageTool.m in Sources */,
+				1884A72F1D2A25F900B9AE76 /* LNTopImgButton.m in Sources */,
+				1884A72D1D2A25F900B9AE76 /* UIImageView+LNImageViewTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +342,7 @@
 				1884A7131D2A13DF00B9AE76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
