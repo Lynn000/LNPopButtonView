@@ -14,9 +14,9 @@
 - (void)layoutSubviews{
     
     [super layoutSubviews];
-    
+
     // 给图片设置frame
-    self.imageView.center = CGPointMake(self.bounds.size.width, self.imageView.image.size.height * 0.5);
+    self.imageView.center = CGPointMake(self.bounds.size.width * 0.5, self.imageView.image.size.height * 0.5);
     
     // 给文字设置frame
     CGRect tempFrame = self.titleLabel.frame;
